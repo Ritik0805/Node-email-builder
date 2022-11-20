@@ -1,0 +1,25 @@
+						{{#if showMobileAppBanner}}
+            {{> alertMobileAppBanner }}
+						{{/if}}
+
+						<!-- DEV NOTE: FOOTER START -->
+
+						<tr>
+							<td class="alert-container-divider"></td>
+						</tr>
+
+						<tr>
+							<td class="alert-footer">
+								This alert frequency is set to {{alertFrequency}} at {{alertDeliveryTime}}. <span class="desktop-content"><a href="#">Manage frequency </a> or <a href="#" >turn off alert</a>.</span><br />
+								You are receiving this email alert subject to our standard <a href="#">Disclaimer</a>, <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+							</td>
+						</tr>
+
+					<!-- DEV NOTE: FOOTER END -->
+
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

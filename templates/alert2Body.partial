@@ -1,0 +1,36 @@
+&nbsp
+ &nbsp
+ &nbsp
+  &nbsp
+  &nbsp
+
+
+{{#each philosophies}}  
+
+        {{#if this.Description}}
+       
+                <h1>{{this.name}}</h1>
+                <h3>{{this.Description}}</h3>&nbsp
+        
+
+        {{/if}}
+        
+        
+{{/each}}
+
+
+<h1>Theistic</h1>
+{{#each philosophies}}
+        
+                
+                
+                {{#each religion}}
+                        <h2>{{this.name}}</h2>
+                        {{#if this.Description}}
+                                <h3>{{this.Description}}</h3>
+                        
+                       
+                {{/each}}
+        
+{{/each}}
+

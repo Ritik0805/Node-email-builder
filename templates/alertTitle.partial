@@ -1,0 +1,47 @@
+
+<!-- DEV NOTE: SAVED SEARCH TITLE START -->
+
+<tr>
+  <td class="alert-container-divider"></td>
+</tr>
+
+<tr>
+  <td>
+    <table class="alert-summary-container">
+      <tr>
+        <td class="alert-summary-title-kw-container">
+          <div class="alert-summary-title">
+            <a href="{{savedSearchURL}}">{{savedSearchTitle}}</a>: {{savedSearchDocumentCount}} new documents match
+          </div>
+          <div class="alert-summary-kw">
+            <b>Search Criteria:</b> {{savedSearchKeywords}}
+          </div>
+
+          <div class="mobile-content ol-hidden">
+            <div class="btn-standalone ol-hidden">
+              <table class="btn ol-hidden" height="32">
+                <tbody class="ol-hidden">
+                  <tr class="ol-hidden">
+                    <td class="btn-content ol-hidden" height="32"><a href="{{readAllURL}}"><font color="#ffffff">Read in AlphaSense</font></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </td>
+        <td class="alert-summary-action-container desktop-content" align="right">
+          <table class="btn" height="32">
+            <tbody>
+              <tr>
+                <td class="btn-content" height="32"><a href="{{readAllURL}}"><font color="#ffffff">Read in AlphaSense</font></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+<!-- DEV NOTE: SAVED SEARCH TITLE END -->

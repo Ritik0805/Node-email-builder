@@ -1,0 +1,14 @@
+<!-- DEV NOTE: EARLY TERMINATION WARNING START -->
+
+<tr>
+  <td class="alert-container-divider"></td>
+</tr>
+
+<tr>
+  <td class="warning">
+    <div class="warning-title">You have changed or turned off this alert.</div>
+    <div class="warning-description">This email contains all of the documents that have been received up to this point. Future email alerts for this saved search will include document matches based on your revised search criteria.</div>
+  </td>
+</tr>
+
+<!-- DEV NOTE: EARLY TERMINATION WARNING END -->

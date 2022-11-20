@@ -1,0 +1,37 @@
+<!-- DEV NOTE: DOCUMENT TABLE START -->
+
+<tr>
+	<td class="alert-container-divider"></td>
+</tr>	
+
+<tr>
+	<td>
+		<table class="alert-doc-table">
+			{{#each documentsByCompany}}
+			<tr class="alert-doc-table-header-row {{#if @first}}alert-doc-table-header-row-first{{/if}}">
+				<th colspan="5">
+					<span class="header-company">{{this.company}}</span>&nbsp;&nbsp;<span class="header-count">{{this.documentCount}} documents</span>
+				</th>
+			</tr>
+
+			{{#each this.documents}}
+			<tr class="alert-doc-table-row">
+				<td class="col-ticker"><a title="{{this.companyNames}}">{{this.companyTickers}}</a></td>
+				<td class="col-src"><a title="{{this.contentType}}">{{this.contentTypeAbbreviation}}</a></td>
+				<td class="col-title"><a href="{{this.url}}">{{{this.title}}}</a></td>
+				<td class="col-size">{{this.pageCount}} pgs</td>
+				<td class="col-date">{{this.date}}</td>	
+			</tr>
+			{{#unless @last}} 
+			<tr>
+				<td class="alert-doc-table-divider" colspan="5">&nbsp;</td>
+			</tr>
+			{{/unless}}
+			{{/each}}
+
+			{{/each}}
+		</table>
+	</td>
+</tr>
+
+<!-- DEV NOTE: DOCUMENT TABLE END -->

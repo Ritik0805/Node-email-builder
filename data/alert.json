@@ -1,0 +1,538 @@
+{
+  "showMobileAppBanner": true,
+  "savedSearchTitle": "Sample Saved Search",
+  "savedSearchDocumentCount": "18",
+  "savedSearchKeywords": "keyword1 keyword2 keyword3",
+  "savedSearchURL": "https://research.alpha-sense.com/?search_id=90be2651-e555-4970-9c7a-c3be365e9d7f",
+  "readAllURL": "https://research.alpha-sense.com?alertEventId=90be2651-e555-4970-9c7a-c3be365e9d7f1365585220",
+  "previewText": "Documents mention SEAC, 6997.JP, DIS, --, Pioneer Group, LLC, BBY, Daedalic Entertainment, and 6 more",
+  "staticAssetRootURL": "http://localhost:5000",
+  "alertFrequency": "daily",
+  "alertDeliveryTime": "10:00 AM",
+  "documentsByCompany": [
+    {
+      "company": "Example Content",
+      "documentCount": "2",
+      "documents": [
+        {
+          "companyNames": "Example Content",
+          "companyTickers": "EXMP",
+          "contentType": "Press Release",
+          "contentTypeAbbreviation": "PR",
+          "url": "http://research.alpha-sense.com",
+          "title": "Example Title with <span class=\"kw-highlight\">Keyword Hit</span>",
+          "pageCount": "8",
+          "date": "16 Feb",
+          "badges": {
+            "revision": true,
+            "targetDown": true,
+            "targetUp": true,
+            "estimateUp": true,
+            "estimateDown": true,
+            "initiation": true,
+            "upgrade": true,
+            "downgrade": true,
+            "amr": true,
+            "sentimentPositive": "25",
+            "sentimentNegative": "-25",
+            "sentimentZero": "0",
+            "sentimentChangePositiveHigh": "75",
+            "sentimentChangePositiveLow": "25",
+            "sentimentChangeZero": "0",
+            "sentimentChangeNegativeLow": "-25",
+            "sentimentChangeNegativeHigh": "-75"
+          },
+          "snippetsCount": "3",
+          "snippets": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "This is an example snippet with a <span class=\"kw-highlight\">keyword hit,</span>, plus some additional text to test wrapping in snippets so that you can see what happens when the snippet spans multiple lines."
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "Here is an example second snippet that has been added to demonstrate that is a <span class=\"kw-highlight\">very long keyword hit to see what happens when it spans a linebreak</span>"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "And here is a third snippet with <span class=\"kw-highlight\">keyword hit</span> and another <span class=\"kw-highlight\">keyword hit</span>."
+            }
+          ],
+          "similarDocumentsCount": "3",
+          "similarDocuments": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Similar Document One",
+              "source": "Sample Source One"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Similar Document Two",
+              "source": "Sample Source Two"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Similar Document Three with a Longer Title to See That the Line Heights Look Correct When the Document Title Spans Multiple Lines",
+              "source": "Sample Source Three With A Longer Title"
+            }
+          ]
+        },
+
+        {
+          "companyNames": "Sample Company",
+          "companyTickers": "SMPL",
+          "contentType": "Press Release",
+          "contentTypeAbbreviation": "PR",
+          "url": "http://research.alpha-sense.com",
+          "title": "Example Content Article Two",
+          "pageCount": "8",
+          "date": "16 Feb"
+        }
+      ]
+    },
+    {
+      "company": "Example with Cluster Overflow (Company Only, Clusters)",
+      "documentCount": "8",
+      "documents": [
+        {
+          "companyNames": "Example Inc.",
+          "companyTickers": "EXMPL",
+          "contentType": "Wall Street Journal",
+          "contentTypeAbbreviation": "WSJ",
+          "url": "http://research.alpha-sense.com",
+          "title": "This is sample document to demonstrate document cluster overflow",
+          "pageCount": "2",
+          "date": "11 May",
+          "similarDocumentsCount": "30",
+          "similarDocumentsOverflowCount": "5",
+          "similarDocuments": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 1",
+              "source": "Document Source 1"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 2",
+              "source": "Document Source 2"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 3",
+              "source": "Document Source 3"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 4",
+              "source": "Document Source 4"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 5",
+              "source": "Document Source 5"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 6",
+              "source": "Document Source 6"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 7",
+              "source": "Document Source 7"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 8",
+              "source": "Document Source 8"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 9",
+              "source": "Document Source 9"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 10",
+              "source": "Document Source 10"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 11",
+              "source": "Document Source 11"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 12",
+              "source": "Document Source 12"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 13",
+              "source": "Document Source 13"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 14",
+              "source": "Document Source 14"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 15",
+              "source": "Document Source 15"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 16",
+              "source": "Document Source 16"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 17",
+              "source": "Document Source 17"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 18",
+              "source": "Document Source 18"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 19",
+              "source": "Document Source 19"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 20",
+              "source": "Document Source 20"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 21",
+              "source": "Document Source 21"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 22",
+              "source": "Document Source 22"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 23",
+              "source": "Document Source 23"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 24",
+              "source": "Document Source 24"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sample Cluster Document 25",
+              "source": "Document Source 25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "International Business Machines (Company Only, Clusters)",
+      "documentCount": "8",
+      "documents": [
+        {
+          "companyNames": "IBM, Moderna",
+          "companyTickers": "IBM, MRNA",
+          "contentType": "Wall Street Journal",
+          "contentTypeAbbreviation": "WSJ",
+          "url": "http://research.alpha-sense.com",
+          "title": "Moderna and IBM Plan to Collaborate on COVID-19 Vaccine Supply Chain and Distribution Data Sharing",
+          "pageCount": "2",
+          "date": "11 May",
+          "similarDocumentsCount": "5",
+          "similarDocuments": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "IBM, Moderna partnering to get COVID vaccine distributed",
+              "source": "Pharma & Healthcare Monitor"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Moderna, IBM team up for vaccine information tracking, sharing",
+              "source": "Pharma & Healthcare Monitor"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "IBM Stock Moderna and IBM Plan to Collaborate on COVID-19 Vaccine Supply Chain and Distribution",
+              "source": "Pharma & Healthcare Monitor"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Moderna to explore blockchain vaccine traceability with IBM",
+              "source": "Pharma & Healthcare Monitor"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Moderna Teams With IBM To Advance COVID-19 Vaccine Management",
+              "source": "Pharma & Healthcare Monitor"
+            }
+          ]
+        },
+        {
+          "companyNames": "IBM",
+          "companyTickers": "IBM",
+          "contentType": "UBS Research",
+          "contentTypeAbbreviation": "UBS Research",
+          "url": "http://research.alpha-sense.com",
+          "title": "International Business Machines Corp. &quotComp plan modified to deemphasize...&quot",
+          "pageCount": "10",
+          "date": "9 Mar",
+          "badges": {
+            "revision": true
+          }
+        },
+        {
+          "companyNames": "IBM",
+          "companyTickers": "IBM",
+          "contentType": "BofA Global Research",
+          "contentTypeAbbreviation": "BofA Global Research",
+          "url": "http://research.alpha-sense.com",
+          "title": "International Business Machines Corp. : Proxy filing reveals more transformation underway",
+          "pageCount": "8",
+          "date": "9 Mar",
+          "badges": {
+            "revision": true
+          }
+        },
+        {
+          "companyNames": "IBM",
+          "companyTickers": "IBM",
+          "contentType": "Trade Arabia",
+          "contentTypeAbbreviation": "Trade Arabia",
+          "url": "http://research.alpha-sense.com",
+          "title": "EgyptAir Tourism signs cloud contract with IBM",
+          "pageCount": "1",
+          "date": "11 May",
+          "similarDocumentsCount": "2",
+          "similarDocuments": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "EGYPTAIR Tourism and Duty Free to migrate operations to IBM Cloud",
+              "source": "Airline Industry Information"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "EGYPTAIR Tourism and Duty Free Co. Lands Cloud Contract with IBM",
+              "source": "PR"
+            }
+          ]
+        },
+        {
+          "companyNames": "IBM",
+          "companyTickers": "IBM",
+          "contentType": "PR",
+          "contentTypeAbbreviation": "PR",
+          "url": "http://research.alpha-sense.com",
+          "title": "Court Denies IBM Motion For Summary Judgement, According to Whitfield Bryson LLP",
+          "pageCount": "1",
+          "date": "11 May"
+        },
+        {
+          "companyNames": "IBM",
+          "companyTickers": "IBM",
+          "contentType": "RSS",
+          "contentTypeAbbreviation": "RSS",
+          "url": "http://research.alpha-sense.com",
+          "title": "STAT+: Inside the fall of Watson Health: How IBM’s audacious plan to ‘change the face of health care’ with AI fell apart",
+          "pageCount": "1",
+          "date": "8 Mar"
+        },
+        {
+          "companyNames": "IBM",
+          "companyTickers": "IBM",
+          "contentType": "Press Release",
+          "contentTypeAbbreviation": "PR",
+          "url": "http://research.alpha-sense.com",
+          "title": "IBM Study Finds Advancing Women is Not a Top Priority for 70 Percent of Global Organizations Surveyed",
+          "pageCount": "2",
+          "date": "8 Mar"
+        },
+        {
+          "companyNames": "IBM",
+          "companyTickers": "IBM",
+          "contentType": "Ekapija.com (English)",
+          "contentTypeAbbreviation": "Ekapija.com (English)",
+          "url": "http://research.alpha-sense.com",
+          "title": "IBM to Prepare Vaccination E-Passport for German Government - Restaurants, Stores, Fitness Centers and Hotels to Regulate Access through App",
+          "pageCount": "1",
+          "date": "9 Mar"
+        }
+      ]
+    },
+
+    {
+      "company": "TechnipFMC plc (Company Only, 1 Doc)",
+      "documentCount": "1",
+      "documents": [
+        {
+          "companyNames": "TechnipFMC plc",
+          "companyTickers": "FTI",
+          "contentType": "Press Release",
+          "contentTypeAbbreviation": "PR",
+          "url": "http://research.alpha-sense.com",
+          "title": "TechnipFMC plc Announces Filing of Current Report on Form 8-K Disclosing Entry Into Certain Material Agreements Relating to TechnipFMC plc’s Previously Announced Separation Into Two Industry-leading, Independent, Publicly Traded Companies",
+          "pageCount": "37",
+          "date": "15 Feb"
+        }
+      ]
+    },
+
+    {
+      "company": "SFL Corporation LTD (Snippets)",
+      "documentCount": "2",
+      "documents": [
+        {
+          "companyNames": "SFL Corporation LTD",
+          "companyTickers": "SFL",
+          "contentType": "Press Release",
+          "contentTypeAbbreviation": "PR",
+          "url": "http://research.alpha-sense.com",
+          "title": "SFL - Preliminary Q4 2020 results and quarterly cash dividend of $0.15 per share",
+          "pageCount": "2",
+          "date": "15 Feb",
+          "snippetsCount": "9",
+          "snippets": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "SFL - Preliminary Q4 2020 results and quarterly cash <span class=\"kw-highlight\">dividends</span> of $0.15 per share"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "Preliminary Q4 2020 results and quarterly cash <span class=\"kw-highlight\">dividend</span> of $0.15 per share"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "68th consecutive quarterly <span class=\"kw-highlight\">dividend</span> declared, $0.15 per share."
+            }
+          ]
+        },
+        {
+          "companyNames": "SFL Corporation LTD",
+          "companyTickers": "SFL",
+          "contentType": "Pareto Securities AS",
+          "contentTypeAbbreviation": "Pareto Securities AS",
+          "url": "http://research.alpha-sense.com",
+          "title": "SFL Corp.-No more offshore downside-03/24/2021",
+          "pageCount": "9",
+          "date": "15 Feb",
+          "badges": {
+            "targetUp": true
+          },
+          "snippetsCount": "10",
+          "snippets": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "We raise our estimates and see a gradual return to USD 1 per share in <span class=\"kw-highlight\">dividend</span> by 2023."
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "An 8% yield on USD 0.8 in 2022 <span class=\"kw-highlight\">dividend</span> results in our new TP of USD 10 (7) - up to BUY (HOLD) Taurus written off - the other two are delivering better than feared SFL has joined Ocean Yield in ditching some offshore assets and starting with a clean slate."
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "With banks still hesitant to fund much-needed newbuild investments, this will provide opportunities Room for <span class=\"kw-highlight\">dividend</span> hikes - up to BUY (HOLD) with TP USD 10 (7) With Taurus firmly in the rear-view mirror, we see potential for SFL to gradually increase its quarterly <span class=\"kw-highlight\">dividends</span> back up to UDS 0.20 per share by 2022 - while maintaining a ~100% payout ratio and growing the equity ratio."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Newscope Capital Corporation (Snippets + Clusters)",
+      "documentCount": "1",
+      "documents": [
+        {
+          "companyNames": "Newscope Capital Corporation",
+          "companyTickers": "--",
+          "contentType": "Press Release",
+          "contentTypeAbbreviation": "PR",
+          "url": "http://research.alpha-sense.com",
+          "title": "PharmaTher Announces Sale of Psilocybin Program",
+          "pageCount": "2",
+          "date": "15 Feb",
+          "snippetsCount": "3",
+          "snippets": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "TORONTO, Feb. 17, 2021 (GLOBE NEWSWIRE) -- Newscope Capital Corporation (CSE: PHRM) (OTCQB: PHRRF), who through its wholly-owned subsidiary, PharmaTher Inc. (“PharmaTher” or the “Company”), is a specialty life sciences company focused on the research and development of psychedelic pharmaceuticals, is pleased to announce that, further to its press release dated December 21, 2020, it has entered into an asset purchase agreement (the “Agreement”) with Revive Therapeutics Ltd. (“Revive”) (CSE: RVV, USA: RVVTF) to sell the full rights to PharmaTher’s intellectual property (the <span class=\"kw-highlight\">“Acquired Assets”)</span> pertaining to psilocybin (the <span class=\"kw-highlight\">“Acquisition”).</span>"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "In addition to the Purchase Price, Revive will also pay Newscope Capital Corporation a low single digit royalty on all future net sales of products derived from the <span class=\"kw-highlight\">Acquired Assets.</span>"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "text": "The <span class=\"kw-highlight\">Acquired Assets</span> will include all of the following:"
+            }
+          ],
+          "similarDocumentsCount": "5",
+          "similarDocuments": [
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Acquires Unique Psilocybin Assets (NEWSCOPE CAPITAL CORP)",
+              "source": "PR"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sale of Psilocybin Program (REVIVE THERAPEUTICS LTD)",
+              "source": "PR"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "PharmaTher Announces Sale of Psilocybin Program",
+              "source": "PR"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Revive Therapeutics Acquires Unique Psilocybin Assets",
+              "source": "PR"
+            },
+            {
+              "url": "http://research.alpha-sense.com",
+              "title": "Sale of Psilocybin Program (NEWSCOPE CAPITAL CORP)",
+              "source": "PR"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "company": "Nokia Corp (Title Hit)",
+      "documentCount": "1",
+      "documents": [
+        {
+          "companyNames": "Nokia Corp",
+          "companyTickers": "NOK",
+          "contentType": "Morningstar (Mark Cash)",
+          "contentTypeAbbreviation": "Morningstar (Mark Cash)",
+          "url": "http://research.alpha-sense.com",
+          "title": "Nokia Expected to Benefit from 5G Buildouts, from the <span class=\"kw-highlight\">Radio</span> to the Core",
+          "pageCount": "26",
+          "date": "15 Feb"
+        },
+        {
+          "companyNames": "Nokia Corp",
+          "companyTickers": "NOK",
+          "contentType": "Morningstar (Mark Cash)",
+          "contentTypeAbbreviation": "Morningstar (Mark Cash)",
+          "url": "http://research.alpha-sense.com",
+          "title": "Morningstar | Nokia Expected to Benefit from 5G Buildouts, from the <span class=\"kw-highlight\">Radio</span> to the Core",
+          "pageCount": "26",
+          "date": "15 Feb",
+          "badges": {
+            "targetUp": true
+          }
+        }
+      ]
+    }
+  ]
+}

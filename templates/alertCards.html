@@ -1,0 +1,496 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>{{savedSearchTitle}}: {{savedSearchDocumentCount}} new docs today</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="x-apple-disable-message-reformatting" />
+
+	<!-- DEV NOTE: ADDITIONAL CSS HERE IS NOT AFFECTED BY INLINER -->
+	<style>
+	
+	@font-face {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: bold;
+		src: url(https://research.alpha-sense.com/static/fonts/roboto-bold.woff2) format("woff");
+	}
+	
+	@font-face {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: normal;
+		src: url(https://research.alpha-sense.com/static/fonts/roboto-regular.woff) format("woff");
+	}
+	
+	@media only screen and (min-width: 600px) {
+		span.desktop-content {
+			display: inline !important;
+		}
+	
+		td.desktop-content {
+			display: table-cell !important;
+		}
+	
+		.mobile-content {
+			/* mso-hide: all; */
+			display: none !important;
+		}
+	}
+	
+	@media only screen and (max-width: 600px) {
+		.desktop-content {
+			display: none !important;
+		}
+	
+		div.mobile-content {
+			display: block !important;
+		}
+	}
+	</style>
+	<!-- DEV NOTE: END ADDITIONAL CSS -->
+
+</head>
+
+<body>
+	<!--[if mso]>
+	<style type="text/css">
+		body, table, td, h1, h2, h3, p {font-family: Arial, Helvetica, sans-serif !important;}
+		a { text-decoration: none;}
+	</style>
+	<![endif]-->
+
+	<!-- DEV NOTE: PREVIEW TEXT START -->
+	<!-- SHOULD BE 140 CHARACTERS. PAD WITH ADDITIONAL &nbsp; IF UNDER 140 -->
+
+	<div class="preview-text">{{previewText}}</div>
+
+	<!-- DEV NOTE: PREVIEW TEXT END -->
+
+
+	<!-- DEV NOTE: TRACKING PIXEL START -->
+	
+	<img src="{{trackingPixelURL}}" class="preview-px">
+
+	<!-- DEV NOTE: TRACKING PIXEL END -->
+
+
+	<!--[if (gte mso 9)|(IE)]><style type="text/css">table {border-collapse: collapse;}</style><![endif]-->
+
+	<table class="root-container-dark">
+			<tr>
+				<td class="root-cell" align="center">
+
+					<table class="alert-container">
+						<!-- logo starts -->
+
+						<tr>
+							<td class="alert-logo">					
+							  <a href="https://research.alpha-sense.com">
+								<img src="{{staticAssetRootURL}}/alphasense-logo.png" alt="AlphaSense" height="22" width="112" >
+							  </a>
+							</td>
+						  </tr>
+                      <!-- logo ends -->
+					  <!-- title starts -->
+					  
+<!-- DEV NOTE: SAVED SEARCH TITLE START -->
+
+<tr class="only-title">
+	<td class="alert-container-divider"></td>
+  </tr>
+  
+  <tr class="only-title">
+	<td>
+	  <table class="alert-summary-container">
+		<tr>
+		  <td class="alert-summary-title-kw-container">
+			<div class="alert-summary-title">
+			  <a href="{{savedSearchURL}}">{{savedSearchTitle}}</a>: {{savedSearchDocumentCount}} new documents match
+			</div>
+			<div class="alert-summary-kw">
+			  <b>Search Criteria:</b> {{savedSearchKeywords}}
+			</div>
+  
+			<div class="mobile-content ol-hidden">
+			  <div class="btn-standalone ol-hidden">
+				<table class="btn ol-hidden" height="32">
+				  <tbody class="ol-hidden">
+					<tr class="ol-hidden">
+					  <td class="btn-content ol-hidden" height="32"><a href="{{readAllURL}}"><font color="#ffffff">Read in AlphaSense</font></a></td>
+					</tr>
+				  </tbody>
+				</table>
+			  </div>
+			</div>
+  
+		  </td>
+		  <td class="alert-summary-action-container desktop-content" align="right">
+			<table class="btn" height="32">
+			  <tbody>
+				<tr>
+				  <td class="btn-content" height="32"><a href="{{readAllURL}}"><font color="#ffffff">Read in AlphaSense</font></a></td>
+				</tr>
+			  </tbody>
+			</table>
+		  </td>
+		</tr>
+	  </table>
+	</td>
+  </tr>
+  
+  <!-- DEV NOTE: SAVED SEARCH TITLE END -->
+					  <!-- tile ends -->
+						
+
+						<!-- DEV NOTE: EARLY TERMINATION WARNING START -->
+
+<tr>
+	<td class="alert-container-divider"></td>
+  </tr>
+  
+  <tr class="only-warning">
+	<td class="warning">
+	  <div class="warning-title">You have changed or turned off this alert.</div>
+	  <div class="warning-description">This email contains all of the documents that have been received up to this point. Future email alerts for this saved search will include document matches based on your revised search criteria.</div>
+	</td>
+  </tr>
+  
+  <!-- DEV NOTE: EARLY TERMINATION WARNING END -->
+  
+
+					<!-- DEV NOTE: EXCESS ALERTS WARNING START -->
+
+<tr >
+	<td class="alert-container-divider"></td>
+  </tr>
+  
+  <tr class="only-warning">
+	<td class="warning">
+	  <div class="warning-title">Excess Alerts</div>
+	  <div class="warning-description">There were more than 100 document matches for this email alert, which exceeds the amount that we recommend delivering in a single email. Additional email alerts will be sent with the remaining documents.</div>
+	</td>
+  </tr>
+  
+  <!-- DEV NOTE: EXCESS ALERTS WARNING START -->
+  
+
+						<!-- DEV NOTE: COMPANIES IN THIS ALERT START -->
+
+<tr >
+	<td class="alert-container-divider"></td>
+  </tr>
+  
+  <tr class="company-names-in-this-alert-block">
+	<td class="alert-companies">
+	  <div class="alert-companies-title">Companies in this alert</div>
+	  <div class="alert-companies-list">
+		{{#each documentsByCompany}}
+		<a href="#{{@index}}_company" title="{{this.company}}">{{this.company}}</a> ({{this.documentCount}} docs),
+		{{/each}}
+		+&nbsp;5&nbsp;more
+	  </div>
+	</td>
+  </tr>
+  
+  <!-- DEV NOTE: COMPANIES IN THIS ALERT END -->
+<!-- these are the buttons -->
+<!-- <div id="controllers">
+	{{#each documentsByCompany}}
+		<button id={{stringHash this.company "button"}}>
+			{{this.company}}
+		</button>
+	{{/each}}
+</div> -->
+
+<!-- DEV NOTE: DOCUMENT CARDS START -->
+
+{{#each documentsByCompany}}
+
+ <!-- I am including the trio of divider, header and the actual alert card into a div -->
+
+	<!-- below is the divider -->
+	<tr class="{{stringHash this.company '_'}}">
+		<td class="alert-container-divider">
+	
+		</td>
+	</tr>	
+	<!-- below is the header -->
+	<tr class="{{stringHash this.company '_'}}">
+		<td class="alert-card-company-header">
+				<a name="{{@index}}_company"></a>
+				<div class="alert-card-company-header-title">{{this.company}}</div>
+				<div class="alert-card-company-header-description">{{this.documentCount}} documents in order of relevance</div>
+		</td>
+	</tr>
+	<!-- below is the actual alert card -->
+	<tr class="{{stringHash this.company '_'}}">
+		<td class="alert-card-container  actual_card">
+			<table class="alert-card-tbl">
+				{{#each this.documents}}
+
+				{{#if @first}}
+				<tr>
+					<td class="alert-card-docs-start-row">
+					</td>
+				</tr>
+				{{/if}}
+
+				<tr>
+					<td class="alert-card-doc-std-row">
+						<table class="alert-card-doc-header">
+							<tr>
+								<td class="alert-card-doc-title">
+									<a href="{{this.url}}">{{{this.title}}}</a>
+								</td>
+								<td class="alert-card-doc-header-actions">
+									<a href="#">
+										<img src="{{@root.staticAssetRootURL}}/icon-download.png" valign="middle" alt="AlphaSense" height="18" width="18" >
+									</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="alert-card-doc-std-row alert-card-doc-meta">
+						<a title="{{this.companyNames}}">{{this.companyNames}}</a>
+						&nbsp;&bull;&nbsp;
+						{{this.date}}
+						&nbsp;&bull;&nbsp;
+						<a title="{{this.contentType}}">{{this.contentTypeAbbreviation}}</a>
+						&nbsp;&bull;&nbsp;
+						{{this.pageCount}} pages
+					</td>
+				</tr>
+
+				{{#if this.badges}}
+				<tr>
+					<td class="alert-card-doc-std-row alert-card-doc-meta">
+						{{#if this.badges.revision}}
+						<span class="badge-asx">Revision</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.targetUp}}
+						<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-up.png" width="14" height="16"> Target</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.targetDown}}
+							<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-down.png" width="14" height="16"> Target</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.estimateUp}}
+							<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-up.png" width="14"  height="16"> Estimates</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.estimateDown}}
+							<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-down.png" width="14"  height="16"> Estimates</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.initiation}}
+							<span class="badge-asx-init">Initiation</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.upgrade}}
+							<span class="badge-asx">Upgrade</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.downgrade}}
+							<span class="badge-asx">Downgrade</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.amr}}
+							<span class="badge-asx-amr">AMR</span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.sentimentPositive}}
+							<span class="badge-asx">Sentiment <span class="badge-asx-num-pos">{{this.badges.sentimentPositive}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-sent-up.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.sentimentNegative}}
+						<span class="badge-asx">Sentiment <span class="badge-asx-num-neg">{{this.badges.sentimentNegative}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-sent-down.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.sentimentZero}}
+						<span class="badge-asx">Sentiment <span class="badge-asx-num-zero">{{this.badges.sentimentZero}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-sent-down.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}					
+						{{#if this.badges.sentimentChangePositiveHigh}}
+							<span class="badge-asx">Sentiment Change <span class="badge-asx-num-pos">{{this.badges.sentimentChangePositiveHigh}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-pos-high.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.sentimentChangePositiveLow}}
+							<span class="badge-asx">Sentiment Change <span class="badge-asx-num-pos">{{this.badges.sentimentChangePositiveLow}} <img src="{{@root.staticAssetRootURL}}/arrow-pos-low.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.sentimentChangeZero}}
+						<span class="badge-asx">Sentiment Change <span class="badge-asx-num-zero">{{this.badges.sentimentChangeZero}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-neutral.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.sentimentChangeNegativeLow}}
+						<span class="badge-asx">Sentiment Change <span class="badge-asx-num-neg">{{this.badges.sentimentChangeNegativeLow}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-neg-low.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}
+						{{#if this.badges.sentimentChangeNegativeHigh}}
+						<span class="badge-asx">Sentiment Change <span class="badge-asx-num-neg">{{this.badges.sentimentChangeNegativeHigh}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-neg-high.png" width="12" height="16"></span>&nbsp;&nbsp;
+						{{/if}}
+
+					</td>
+				</tr>
+				{{/if}}
+
+				{{#if this.snippets}}
+				<tr>
+					<td class="alert-card-doc-inner-container">
+						<table class="alert-snippet-tbl">
+
+							{{#each this.snippets}}
+							<tr>
+								<td class="alert-card-snippet">
+									<a href="{{{this.url}}}">{{{this.text}}}</a>
+								</td>
+							</tr>
+							{{/each}}
+
+							<tr>
+								<td class="alert-card-view-all">
+									<a href="#">View all {{this.snippetsCount}} keyword hits</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				{{/if}}
+
+				{{#if this.similarDocuments}}
+				<tr>
+					<td class="alert-card-doc-inner-container">
+						<table class="alert-similar-tbl">
+							<tr>
+								<td class="alert-similar-tbl-row-first"></td>
+							</tr>
+							<tr>
+								<td class="alert-similar-tbl-row">
+									{{this.similarDocumentsCount}} similar documents
+								</td>
+							</tr>
+							{{#each this.similarDocuments}}
+							<tr>
+								<td class="alert-similar-tbl-row">
+									<a href="{{this.url}}"><b>{{this.title}}</b> {{this.source}}</a>
+								</td>
+							</tr>
+							{{/each}}
+							{{#if this.similarDocumentsOverflowCount}} 
+							<tr>
+								<td class="alert-similar-tbl-row alert-similar-tbl-row-overflow">
+									<a href="{{this.url}}">View {{this.similarDocumentsOverflowCount}} additional documents in search results</a>
+								</td>
+							</tr>
+							{{/if}}
+							<tr>
+								<td class="alert-similar-tbl-row-last"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				{{/if}}
+
+				{{#unless @last}} 
+				<tr>
+					<td class="alert-card-doc-std-row">&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="alert-card-doc-divider">&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="alert-card-doc-std-row">&nbsp;</td>
+				</tr>
+				{{/unless}}
+
+				{{#if @last}}
+				<tr>
+					<td class="alert-card-docs-end-row">
+					</td>
+				</tr>
+				{{/if}}
+
+				{{/each}}
+
+			</table>
+		</td>
+	</tr>
+
+
+
+
+
+
+{{/each}}
+
+<!-- DEV NOTE: DOCUMENT CARDS END -->
+
+
+
+
+{{#if showMobileAppBanner}}
+{{> alertMobileAppBanner }}
+            {{/if}}
+
+            <!-- DEV NOTE: FOOTER START -->
+
+            <tr>
+                <td class="alert-container-divider"></td>
+            </tr>
+
+            <tr class="only-footer">
+                <td class="alert-footer">
+                    This alert frequency is set to {{alertFrequency}} at {{alertDeliveryTime}}. <span class="desktop-content"><a href="#">Manage frequency </a> or <a href="#" >turn off alert</a>.</span><br />
+                    You are receiving this email alert subject to our standard <a href="#">Disclaimer</a>, <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+                </td>
+            </tr>
+
+        <!-- DEV NOTE: FOOTER END -->
+
+        </table>
+    </td>
+</tr>
+</table>
+<script>
+	 let div=document.querySelector("#controllers");
+    let children=div.children;
+	let saved_trios=[];
+	for(let i=0;i<children.length;i++)
+	{
+		
+		let trio_class=children[i].id.slice(7);
+			trio_class="_"+"-"+trio_class;
+			let trio=document.querySelectorAll(`.${trio_class}`);
+			saved_trios.push(trio);
+
+
+		children[i].addEventListener('click',function(){
+			let trio_class=children[i].id.slice(7);
+			trio_class="_"+"-"+trio_class;
+			let trio=document.querySelectorAll(`.${trio_class}`);
+			console.log("The trio id is:-")
+			console.log(trio_class)
+			console.log("The trio is:-")
+			console.log(trio);
+		
+
+			for(let j=0;j<trio.length;j++)
+			{
+				if(trio[j].style.display==="none")
+				{
+					trio[j].style.display='block';
+				}
+				else{
+					trio[j].style.display="none";
+				}
+				
+			}
+
+
+
+
+			
+			
+		})
+	}
+
+
+
+        
+
+             
+</script>
+</body>
+</html>
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>{{savedSearchTitle}}: {{savedSearchDocumentCount}} new docs today</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="x-apple-disable-message-reformatting" />
+
+	<!-- DEV NOTE: ADDITIONAL CSS HERE IS NOT AFFECTED BY INLINER -->
+	<style>
+	@font-face {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: bold;
+		src: url(https://research.alpha-sense.com/static/fonts/roboto-bold.woff2) format("woff");
+	}
+	
+	@font-face {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: normal;
+		src: url(https://research.alpha-sense.com/static/fonts/roboto-regular.woff) format("woff");
+	}
+	
+	@media only screen and (min-width: 600px) {
+		span.desktop-content {
+			display: inline !important;
+		}
+	
+		td.desktop-content {
+			display: table-cell !important;
+		}
+	
+		.mobile-content {
+			mso-hide: all;
+			display: none !important;
+		}
+	}
+	
+	@media only screen and (max-width: 600px) {
+		.desktop-content {
+			display: none !important;
+		}
+	
+		div.mobile-content {
+			display: block !important;
+		}
+	}
+	</style>
+	<!-- DEV NOTE: END ADDITIONAL CSS -->
+
+</head>
+
+<body>
+	<!--[if mso]>
+	<style type="text/css">
+		body, table, td, h1, h2, h3, p {font-family: Arial, Helvetica, sans-serif !important;}
+		a { text-decoration: none;}
+	</style>
+	<![endif]-->
+
+	<!-- DEV NOTE: PREVIEW TEXT START -->
+	<!-- SHOULD BE 140 CHARACTERS. PAD WITH ADDITIONAL &nbsp; IF UNDER 140 -->
+
+	<div class="preview-text">{{previewText}}</div>
+
+	<!-- DEV NOTE: PREVIEW TEXT END -->
+
+
+	<!-- DEV NOTE: TRACKING PIXEL START -->
+	
+	<img src="{{trackingPixelURL}}" class="preview-px">
+
+	<!-- DEV NOTE: TRACKING PIXEL END -->
+
+
+	<!--[if (gte mso 9)|(IE)]><style type="text/css">table {border-collapse: collapse;}</style><![endif]-->
+
+	<table class="root-container-dark">
+			<tr>
+				<td class="root-cell" align="center">
+
+					<table class="alert-container">
+
+						{{> alertLogo }}
+
+						{{> alertTitle }}
+
+						{{> alertWarningEarlyTermination }}
+
+						{{> alertWarningExcess }}
+
+						{{> alertCompaniesList }}

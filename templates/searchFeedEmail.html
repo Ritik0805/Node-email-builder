@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>{{ headline}}</title>
+  </head>
+  <body>
+    <table class="container">
+      <tbody>
+        <tr>
+          <td>
+            <table class="table-fixed w-100">
+              <tr>
+                <td>
+                  <h1 class="m0 headline">Your Email Alert</h1>
+                </td>
+                <td>
+                  <div class="w-100 text-right">
+                    <img
+                      src="https://mma.prnewswire.com/media/947841/AlphaSense_Logo.jpg?p=twitter"
+                      class="logo"
+                    />
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        {{#each documents}}
+        <tr>
+          <table class="py2 container">
+            <tr>
+              <td class="text-md">
+                <a href="{{this.docLink}}">{{this.documentTitle}}</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-md">
+                <ul class="list-reset text-muted">
+                  <li class="inline-block">{{this.source.sourceName}}</li>
+                  <li class="inline-block">•</li>
+                  <li class="inline-block">{{this.createdDate}}</li>
+                  <li class="inline-block">•</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<!-- DEV NOTE: EXCESS ALERTS WARNING START -->
+
+<tr>
+  <td class="alert-container-divider"></td>
+</tr>
+
+<tr>
+  <td class="warning">
+    <div class="warning-title">Excess Alerts</div>
+    <div class="warning-description">There were more than 100 document matches for this email alert, which exceeds the amount that we recommend delivering in a single email. Additional email alerts will be sent with the remaining documents.</div>
+  </td>
+</tr>
+
+<!-- DEV NOTE: EXCESS ALERTS WARNING START -->

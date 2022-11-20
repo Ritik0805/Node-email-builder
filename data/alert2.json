@@ -1,0 +1,39 @@
+{
+  "philosophies": [
+    { "specificName": "Atheistic", "Description": "There is no God." },
+    {
+      "specificName": "Agnostic",
+      "Description": "Can accept any school of thought if we find it logical."
+    },
+
+    {
+      "specificName": "Charvaka",
+      "Description": "Pursuing pleasure and avoiding pain is the sole purpose of human existence."
+    },
+    {
+      "specificName": "Jainsim",
+      "Description": "Path to spiritual purity and enlightenment through disciplined nonviolence (ahimsa, literally “non-injury”) to all living creatures"
+    },
+    {
+      "specificName": "Buddhism",
+      "Description": "The human life is one of suffering, and meditation, spiritual and physical labor, and good behavior are the ways to achieve enlightenment, or nirvana"
+    },
+    {
+      "specificName": "Hinduism",
+      "Description": "Vedic literature is the path to absolute."
+    },
+    {
+      "specificName": "Sikhism",
+      "Description": "Our Gurus are our way!"
+    },
+
+    {
+      "specificName": "Islam",
+      "Description": "There is one God and our prophet is our way."
+    },
+    {
+      "specificName": "Christianity",
+      "Description": "There is one God and Jesus is our way"
+    }
+  ]
+}

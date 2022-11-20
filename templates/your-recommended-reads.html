@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Your Recommend Reads</title>
+    <style>
+      @media (max-width: 48em) {
+        .container {
+          max-width: 100% !important;
+          min-width: 100% !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table class="container">
+      <tr>
+        <td>
+          <table class="table-fixed w-100">
+            <tr>
+              <td>
+                <h1 class="m0 headline">Your Recommended Reads</h1>
+                <p class="m0 text-md">Week of Dec 4, 2021</p>
+              </td>
+              <td>
+                <div class="w-100 text-right">
+                  <img
+                    src="https://mma.prnewswire.com/media/947841/AlphaSense_Logo.jpg?p=twitter"
+                    class="logo"
+                  />
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="m0 text-md">
+            Hi {{firstName}}! We’ve made a personalized list of documents that
+            you may have missed over the past week. Documents are chosen based
+            on your preferences, activity, and current trends in AlphaSense.
+            Look out for Your Recommended Reads every Friday. If you’d like to
+            provide feedback on your recommendations, please
+            <a href="https://goggle.com">fill out our survey</a>.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <table class="container border-bottom py2"></table>
+      </tr>
+      {{#each sections}}
+      <table class="py2 container">
+        <tr>
+          <td class="text-lg">{{this.name}}</td>
+        </tr>
+        <tr>
+          <table class="container border-bottom"></table>
+        </tr>
+        {{#each this.documents}}
+        <tr>
+          <table class="py2 container">
+            <tr>
+              <td class="text-md">
+                <a href="{{this.docLink}}">{{this.documentTitle}}</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-md">
+                <ul class="list-reset text-muted">
+                  <li class="inline-block">{{this.source.sourceName}}</li>
+                  <li class="inline-block">•</li>
+                  <li class="inline-block">{{this.createdDate}}</li>
+                  <li class="inline-block">•</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </tr>
+        {{/each}}
+      </table>
+      {{/each}}
+    </table>
+  </body>
+</html>

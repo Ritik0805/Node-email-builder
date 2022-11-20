@@ -1,0 +1,587 @@
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  src: url(https://research.alpha-sense.com/static/fonts/roboto-bold.woff2) format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://research.alpha-sense.com/static/fonts/roboto-regular.woff) format("woff");
+}
+
+/* Use a better rendering method when resizing images in Outlook IE. */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+body,
+table,
+td,
+h1,
+h2,
+h3,
+p {
+  font-family: Roboto, Arial, Helvetica, sans-serif !important;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0e1318;
+}
+
+table {
+  border: none;
+  border-spacing: 0;
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+  margin: 0;
+  padding: 0;
+}
+
+td {
+  padding: 0;
+  border: none;
+  border-spacing: 0;
+  margin: 0;
+}
+
+.root-container-dark {
+  width: 100%;
+  padding: 0px;
+  background-color: #1b242d;
+}
+
+.root-cell {
+  padding: 24px;
+}
+
+.preview-text {
+  display: none;
+  font-size: 1px;
+  color: #fff;
+  line-height: 1px;
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.preview-px {
+  display: none;
+  width: 1px;
+  height: 1px;
+}
+
+.alert-logo {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.alert-summary-container {
+  width: 720px;
+}
+
+.alert-summary-title-kw-container {
+  width: 580px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.alert-summary-action-container {
+  width: 140px;
+  vertical-align: top;
+}
+
+.alert-summary-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.alert-summary-title a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.alert-summary-kw {
+  color: #96abb6;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+
+.warning {
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #334252;
+  color: #ffffff;
+}
+
+.warning-title {
+  padding: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.warning-description {
+  padding: 12px 0px 0px 0px;
+}
+
+.alert-companies {
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.alert-companies-title {
+  color: #0e1318;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.alert-companies-list {
+  padding-top: 8px;
+  color: #5b7289;
+}
+
+.alert-companies-list a {
+  color: #017eff;
+  font-weight: bold;
+}
+
+.alert-card-docs-start-row {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 16px;
+}
+
+
+.alert-card-docs-end-row {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 16px;
+}
+
+.alert-card-doc-std-row {
+  padding: 0px 16px;
+}
+
+.alert-card-doc-meta {
+  padding-top: 4px;
+}
+
+.badge-asx {
+  font-size: 12px;
+  line-height: 134%;
+  color: #5b7289
+}
+
+.badge-asx img {
+  vertical-align: top;
+}
+
+.badge-asx-num-pos {
+  color: #01BD71;
+}
+
+.badge-asx-num-neg {
+  color: #FF414C;
+}
+
+.badge-asx-num-zero {
+  color: #334252;
+}
+
+.badge-asx-amr {  
+  font-size: 12px;
+  line-height: 134%;
+  background-color: #96abb6;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 3px;
+  color: white;
+}
+
+.badge-asx-init {
+  color: #017eff;
+}
+.actual_card{
+  display: block;
+  width: 720px;
+}
+.alert-card-company-header {
+  display: block;
+/* change it */
+  padding-bottom: 8px;
+}
+
+.alert-card-company-header-title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.alert-card-company-header-description {
+  color: #96abb6;
+}
+
+.alert-doc-table {
+  width: 100%;
+  border-radius: 4px;
+  padding: 0px;
+  background-color: white;
+}
+
+.alert-doc-table a {
+  color: #0e1318;
+}
+
+.alert-doc-table th {
+  background-color: #eff3f5;
+  padding: 8px 16px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.alert-doc-table th .header-company {
+  font-weight: bold;
+}
+
+.alert-doc-table th .header-count {
+  color: #5b7289;
+}
+
+.alert-doc-table-header-row th {
+  border-radius: 0px;
+}
+
+.alert-doc-table-header-row-first th {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.alert-doc-table-row td {
+  padding: 8px 8px;
+}
+
+.alert-doc-table-row-sub td {
+  border-top: 0px solid #eff3f5;
+}
+
+.alert-doc-table-row-sub th {
+  border-radius: 0px;
+}
+
+.alert-doc-table-divider {
+  background-color: #eff3f5;
+  height: 1px;
+  max-height: 1px;
+  font-size: 1px;
+  line-height: 1px;
+  padding: 0;
+  margin: 0;
+  mso-line-height-rule: exactly;
+}
+
+.alert-doc-table .col-ticker,
+.alert-doc-table .col-src,
+.alert-doc-table .col-title,
+.alert-doc-table .col-size,
+.alert-doc-table .col-date {
+  vertical-align: top;
+  padding: 8px 8px;
+}
+
+.alert-doc-table .col-ticker {
+  width: 72px;
+  padding-left: 16px;
+}
+
+.alert-doc-table .col-src {
+  width: 80px;
+}
+
+.alert-doc-table .col-title {
+  font-weight: bold;
+}
+
+.alert-doc-table .col-title .kw-highlight {
+    font-weight: bold;
+    padding: none;
+    background-color: none;
+}
+
+.alert-doc-table .col-size {
+  width: 72px;
+  text-align: right;
+}
+
+.alert-doc-table .col-date {
+  width: 72px;
+  padding-right: 16px;
+  text-align: right;
+}
+
+.alert-card-doc-divider {
+  background-color: #e0e7eb;
+  height: 1px;
+  max-height: 1px;
+  font-size: 1px;
+  line-height: 1px;
+  padding: 0;
+  margin: 0;
+  mso-line-height-rule: exactly;
+}
+
+.alert-card-doc-header {
+  width: 100%;
+}
+
+.alert-card-doc-header-actions {
+  width: 26px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.alert-card-doc-title {
+  width: auto;
+  text-align: left;
+  vertical-align: top;
+}
+
+.alert-card-doc-title,
+.alert-card-doc-title a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #017eff;
+}
+
+.alert-card-doc-meta,
+.alert-card-doc-meta a {
+  font-weight: normal;
+  color: #5b7289;
+}
+
+.alert-card-container {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.alert-card-tbl,
+.alert-similar-tbl,
+.alert-snippet-tbl {
+  width: 100%;
+}
+
+.alert-card-snippet {
+  margin-top: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-top: 1px solid #eff3f5;
+  font-weight: normal;
+  color: #0e1318;
+}
+
+.alert-card-snippet a {
+  color: #0e1318;
+}
+
+.kw-highlight,
+.kw-highlight a {
+  font-weight: bold;
+  color: #0e1318;
+  background-color: #ffbe00;
+  padding: 0px 3px;
+  border-radius: 2px;
+}
+
+.alert-card-doc-inner-container {
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.alert-card-view-all {
+  text-align: right;
+}
+
+.alert-card-view-all a {
+  font-weight: bold;
+  color: #017eff;
+}
+
+.alert-similar-tbl-row,
+.alert-similar-tbl-row a,
+.alert-similar-tbl-row-first,
+.alert-similar-tbl-row-overflow,
+.alert-similar-tbl-row-last {
+  text-decoration: none;
+  font-weight: normal;
+  color: #5b7289;
+  background-color: #f6f9fa;
+}
+
+.alert-similar-tbl-row-overflow,
+.alert-similar-tbl-row-overflow a {
+  text-align: right;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+
+.alert-similar-tbl-row {
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.alert-similar-tbl-row-first {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 16px;
+}
+
+.alert-similar-tbl-row-last {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 12px;
+}
+
+.alert-doc-similar-row,
+.alert-doc-similar-row a {
+  font-weight: normal;
+  color: #5b7289;
+  margin: 0px 8px 0px 8px;
+  text-decoration: none;
+  color: #5b7289;
+}
+
+/* Stop Outlook from adding extra spacing to tables. */
+table,
+td {
+  mso-table-lspace: 0pt !important;
+  mso-table-rspace: 0pt !important;
+}
+
+.ol-hidden {
+  mso-hide: all;
+}
+
+.btn {
+  margin: 0px 0px 0px 0px;
+  border-radius: 4px;
+  background-color: #017eff;
+  width: auto;
+  height: 32px;
+}
+
+.btn-content {
+  vertical-align: middle;
+  padding: 0px 8px 0px 8px;
+  height: 32px;
+  color: #ffffff;
+}
+
+.btn-content a {
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.btn-standalone {
+  padding-top: 16px;
+}
+
+.alert-container {
+  width: 720px;
+  margin: 0px;
+}
+
+.alert-container-divider {
+  height: 24px;
+}
+
+.alert-container td.alert-container-row {
+  padding-top: 24px;
+}
+
+span.desktop-content {
+  display: inline;
+}
+
+td.desktop-content {
+  display: table-cell;
+}
+
+.mobile-content {
+  mso-hide: all;
+  display: none;
+}
+
+.alert-footer {
+  text-align: center;
+  color: #fff;
+}
+
+.alert-footer a {
+  color: #fff;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  span.desktop-content {
+    display: inline !important;
+  }
+
+  td.desktop-content {
+    display: table-cell !important;
+  }
+
+  .mobile-content {
+    mso-hide: all;
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop-content {
+    display: none !important;
+  }
+
+  div.mobile-content {
+    display: block !important;
+  }
+}
+
+.h{
+  height:auto;
+}

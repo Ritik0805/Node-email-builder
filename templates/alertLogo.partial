@@ -1,0 +1,11 @@
+<!-- DEV NOTE: LOGO START -->
+
+<tr>
+  <td class="alert-logo">					
+    <a href="https://research.alpha-sense.com">
+      <img src="{{staticAssetRootURL}}/alphasense-logo.png" alt="AlphaSense" height="22" width="112" >
+    </a>
+  </td>
+</tr>
+
+<!-- DEV NOTE: LOGO END -->

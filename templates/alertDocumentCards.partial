@@ -1,0 +1,201 @@
+<!-- DEV NOTE: DOCUMENT CARDS START -->
+
+{{#each documentsByCompany}}
+
+<tr>
+	<td class="alert-container-divider"></td>
+</tr>	
+
+<tr>
+	<td class="alert-card-company-header">
+			<a name="{{@index}}_company"></a>
+			<div class="alert-card-company-header-title">{{this.company}}</div>
+			<div class="alert-card-company-header-description">{{this.documentCount}} documents in order of relevance</div>
+	</td>
+</tr>
+
+<tr>
+	<td class="alert-card-container">
+		<table class="alert-card-tbl">
+			{{#each this.documents}}
+
+			{{#if @first}}
+			<tr>
+				<td class="alert-card-docs-start-row">
+				</td>
+			</tr>
+			{{/if}}
+
+			<tr>
+				<td class="alert-card-doc-std-row">
+					<table class="alert-card-doc-header">
+						<tr>
+							<td class="alert-card-doc-title">
+								<a href="{{this.url}}">{{{this.title}}}</a>
+							</td>
+							<td class="alert-card-doc-header-actions">
+								<a href="#">
+									<img src="{{@root.staticAssetRootURL}}/icon-download.png" valign="middle" alt="AlphaSense" height="18" width="18" >
+								</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="alert-card-doc-std-row alert-card-doc-meta">
+					<a title="{{this.companyNames}}">{{this.companyNames}}</a>
+					&nbsp;&bull;&nbsp;
+					{{this.date}}
+					&nbsp;&bull;&nbsp;
+					<a title="{{this.contentType}}">{{this.contentTypeAbbreviation}}</a>
+					&nbsp;&bull;&nbsp;
+					{{this.pageCount}} pages
+				</td>
+			</tr>
+
+			{{#if this.badges}}
+			<tr>
+				<td class="alert-card-doc-std-row alert-card-doc-meta">
+					{{#if this.badges.revision}}
+					<span class="badge-asx">Revision</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.targetUp}}
+					<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-up.png" width="14" height="16"> Target</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.targetDown}}
+						<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-down.png" width="14" height="16"> Target</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.estimateUp}}
+						<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-up.png" width="14"  height="16"> Estimates</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.estimateDown}}
+						<span class="badge-asx"><img src="{{@root.staticAssetRootURL}}/arrow-down.png" width="14"  height="16"> Estimates</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.initiation}}
+						<span class="badge-asx-init">Initiation</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.upgrade}}
+						<span class="badge-asx">Upgrade</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.downgrade}}
+						<span class="badge-asx">Downgrade</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.amr}}
+						<span class="badge-asx-amr">AMR</span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.sentimentPositive}}
+						<span class="badge-asx">Sentiment <span class="badge-asx-num-pos">{{this.badges.sentimentPositive}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-sent-up.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.sentimentNegative}}
+					<span class="badge-asx">Sentiment <span class="badge-asx-num-neg">{{this.badges.sentimentNegative}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-sent-down.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.sentimentZero}}
+					<span class="badge-asx">Sentiment <span class="badge-asx-num-zero">{{this.badges.sentimentZero}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-sent-down.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}					
+					{{#if this.badges.sentimentChangePositiveHigh}}
+						<span class="badge-asx">Sentiment Change <span class="badge-asx-num-pos">{{this.badges.sentimentChangePositiveHigh}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-pos-high.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.sentimentChangePositiveLow}}
+						<span class="badge-asx">Sentiment Change <span class="badge-asx-num-pos">{{this.badges.sentimentChangePositiveLow}} <img src="{{@root.staticAssetRootURL}}/arrow-pos-low.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.sentimentChangeZero}}
+					<span class="badge-asx">Sentiment Change <span class="badge-asx-num-zero">{{this.badges.sentimentChangeZero}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-neutral.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.sentimentChangeNegativeLow}}
+					<span class="badge-asx">Sentiment Change <span class="badge-asx-num-neg">{{this.badges.sentimentChangeNegativeLow}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-neg-low.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}
+					{{#if this.badges.sentimentChangeNegativeHigh}}
+					<span class="badge-asx">Sentiment Change <span class="badge-asx-num-neg">{{this.badges.sentimentChangeNegativeHigh}}</span> <img src="{{@root.staticAssetRootURL}}/arrow-neg-high.png" width="12" height="16"></span>&nbsp;&nbsp;
+					{{/if}}
+
+				</td>
+			</tr>
+			{{/if}}
+
+			{{#if this.snippets}}
+			<tr>
+				<td class="alert-card-doc-inner-container">
+					<table class="alert-snippet-tbl">
+
+						{{#each this.snippets}}
+						<tr>
+							<td class="alert-card-snippet">
+								<a href="{{{this.url}}}">{{{this.text}}}</a>
+							</td>
+						</tr>
+						{{/each}}
+
+						<tr>
+							<td class="alert-card-view-all">
+								<a href="#">View all {{this.snippetsCount}} keyword hits</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			{{/if}}
+
+			{{#if this.similarDocuments}}
+			<tr>
+				<td class="alert-card-doc-inner-container">
+					<table class="alert-similar-tbl">
+						<tr>
+							<td class="alert-similar-tbl-row-first"></td>
+						</tr>
+						<tr>
+							<td class="alert-similar-tbl-row">
+								{{this.similarDocumentsCount}} similar documents
+							</td>
+						</tr>
+						{{#each this.similarDocuments}}
+						<tr>
+							<td class="alert-similar-tbl-row">
+								<a href="{{this.url}}"><b>{{this.title}}</b> {{this.source}}</a>
+							</td>
+						</tr>
+						{{/each}}
+						{{#if this.similarDocumentsOverflowCount}} 
+						<tr>
+							<td class="alert-similar-tbl-row alert-similar-tbl-row-overflow">
+								<a href="{{this.url}}">View {{this.similarDocumentsOverflowCount}} additional documents in search results</a>
+							</td>
+						</tr>
+						{{/if}}
+						<tr>
+							<td class="alert-similar-tbl-row-last"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			{{/if}}
+
+			{{#unless @last}} 
+			<tr>
+				<td class="alert-card-doc-std-row">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="alert-card-doc-divider">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="alert-card-doc-std-row">&nbsp;</td>
+			</tr>
+			{{/unless}}
+
+			{{#if @last}}
+			<tr>
+				<td class="alert-card-docs-end-row">
+				</td>
+			</tr>
+			{{/if}}
+
+			{{/each}}
+
+		</table>
+	</td>
+</tr>
+
+{{/each}}
+
+<!-- DEV NOTE: DOCUMENT CARDS END -->

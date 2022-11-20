@@ -1,0 +1,623 @@
+{
+  "firstName": "Eric",
+  "sections": [
+    {
+      "name": "Based On Your Dashboard",
+      "documents": [
+        {
+          "documentTitle": "Ericsson and Millicom - TIGO drive digital inclusion in Latin America",
+          "documentVersion": 1600768885726,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5198185809&documentId=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "docId": {
+            "released": 1626423540000,
+            "accessionNumber": "PR-433762f32963eb183337cea22fae76e2e9ffd179"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626449142331,
+          "updatedDate": 1626449142331,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Telefon AB L.M.Ericsson",
+              "ticker": "ERIC",
+              "isin": "us2948216088"
+            }
+          ],
+          "secondaryCompanies": [
+            {
+              "name": "Microsoft Corp",
+              "ticker": "MSFT",
+              "isin": "us5949181045"
+            },
+            {
+              "name": "Millicom International Cellular SA",
+              "ticker": "TIGO",
+              "isin": "lu0038705702"
+            }
+          ],
+          "countryCodes": ["SE"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 4,
+          "numberOfHitStatements": 2,
+          "statements": [
+            {
+              "content": "Ericsson and Millicom are partnering to close the digital divide in Latin America, with a project that will extend network coverage to an additional 2.5 million people in Bolivia, Paraguay and Honduras, while paving the way for 5G rollout across the continent.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 228,
+                  "end": 230
+                },
+                {
+                  "start": 231,
+                  "end": 238
+                }
+              ]
+            },
+            {
+              "content": "The deal represents a strategic achievement for Ericsson, considering that the rollout will provide a solid foundation for new 5G consumer and enterprise opportunities in the three key countries.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 79,
+                  "end": 86
+                },
+                {
+                  "start": 127,
+                  "end": 129
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 17
+        },
+        {
+          "documentTitle": "'Ceragon secures follow-on orders from India operators for wireless transport services'",
+          "documentVersion": 1600768859751,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5196568040&documentId=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "docId": {
+            "released": 1626421620000,
+            "accessionNumber": "PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626446061074,
+          "updatedDate": 1626446061074,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Ceragon Networks Ltd",
+              "ticker": "CRNT",
+              "isin": "il0010851660"
+            }
+          ],
+          "countryCodes": ["IL"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 2,
+          "numberOfHitStatements": 1,
+          "statements": [
+            {
+              "content": "Ceragon plans to help these operators expand their digital footprint in India, as well as prepare for the 5G rollout expected in 2022.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 106,
+                  "end": 108
+                },
+                {
+                  "start": 109,
+                  "end": 116
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 6
+        },
+        {
+          "documentTitle": "Ericsson and Verizon ink landmark multi-year $8.3 Billion 5G deal",
+          "documentVersion": 1600768779068,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-659db6f0e223a07d0182d6563944aaf061e5e235",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5194301227&documentId=PR-659db6f0e223a07d0182d6563944aaf061e5e235",
+          "docId": {
+            "released": 1626411000000,
+            "accessionNumber": "PR-659db6f0e223a07d0182d6563944aaf061e5e235"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626442604138,
+          "updatedDate": 1626442604138,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Telefon AB L.M.Ericsson",
+              "ticker": "ERIC",
+              "isin": "us2948216088"
+            }
+          ],
+          "secondaryCompanies": [
+            {
+              "name": "Verizon Communications Inc",
+              "ticker": "VZ",
+              "isin": "us92343v1044"
+            }
+          ],
+          "countryCodes": ["SE"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 2,
+          "numberOfHitStatements": 1,
+          "statements": [
+            {
+              "content": "We're looking forward to working with Verizon to leverage solutions like Cloud RAN and our Street Macro, adding depth and versatility to 5G network rollouts across the U.S.\"",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 137,
+                  "end": 139
+                },
+                {
+                  "start": 148,
+                  "end": 156
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 50
+        },
+        {
+          "documentTitle": "Ericsson and Millicom - TIGO drive digital inclusion in Latin America",
+          "documentVersion": 1600768885726,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5187377113&documentId=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "docId": {
+            "released": 1626423540000,
+            "accessionNumber": "PR-433762f32963eb183337cea22fae76e2e9ffd179"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626424015482,
+          "updatedDate": 1626424015482,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Telefon AB L.M.Ericsson",
+              "ticker": "ERIC",
+              "isin": "us2948216088"
+            }
+          ],
+          "secondaryCompanies": [
+            {
+              "name": "Microsoft Corp",
+              "ticker": "MSFT",
+              "isin": "us5949181045"
+            },
+            {
+              "name": "Millicom International Cellular SA",
+              "ticker": "TIGO",
+              "isin": "lu0038705702"
+            }
+          ],
+          "countryCodes": ["SE"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 4,
+          "numberOfHitStatements": 2,
+          "statements": [
+            {
+              "content": "Ericsson and Millicom are partnering to close the digital divide in Latin America, with a project that will extend network coverage to an additional 2.5 million people in Bolivia, Paraguay and Honduras, while paving the way for 5G rollout across the continent.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 228,
+                  "end": 230
+                },
+                {
+                  "start": 231,
+                  "end": 238
+                }
+              ]
+            },
+            {
+              "content": "The deal represents a strategic achievement for Ericsson, considering that the rollout will provide a solid foundation for new 5G consumer and enterprise opportunities in the three key countries.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 79,
+                  "end": 86
+                },
+                {
+                  "start": 127,
+                  "end": 129
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 17
+        },
+        {
+          "documentTitle": "'Ceragon secures follow-on orders from India operators for wireless transport services'",
+          "documentVersion": 1600768859751,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5186897500&documentId=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "docId": {
+            "released": 1626421620000,
+            "accessionNumber": "PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626421781505,
+          "updatedDate": 1626421781505,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Ceragon Networks Ltd",
+              "ticker": "CRNT",
+              "isin": "il0010851660"
+            }
+          ],
+          "countryCodes": ["IL"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 2,
+          "numberOfHitStatements": 1,
+          "statements": [
+            {
+              "content": "Ceragon plans to help these operators expand their digital footprint in India, as well as prepare for the 5G rollout expected in 2022.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 106,
+                  "end": 108
+                },
+                {
+                  "start": 109,
+                  "end": 116
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 6
+        }
+      ]
+    },
+    {
+      "name": "Based On Your Alerts",
+      "documents": [
+        {
+          "documentTitle": "Ericsson and Millicom - TIGO drive digital inclusion in Latin America",
+          "documentVersion": 1600768885726,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5198185809&documentId=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "docId": {
+            "released": 1626423540000,
+            "accessionNumber": "PR-433762f32963eb183337cea22fae76e2e9ffd179"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626449142331,
+          "updatedDate": 1626449142331,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Telefon AB L.M.Ericsson",
+              "ticker": "ERIC",
+              "isin": "us2948216088"
+            }
+          ],
+          "secondaryCompanies": [
+            {
+              "name": "Microsoft Corp",
+              "ticker": "MSFT",
+              "isin": "us5949181045"
+            },
+            {
+              "name": "Millicom International Cellular SA",
+              "ticker": "TIGO",
+              "isin": "lu0038705702"
+            }
+          ],
+          "countryCodes": ["SE"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 4,
+          "numberOfHitStatements": 2,
+          "statements": [
+            {
+              "content": "Ericsson and Millicom are partnering to close the digital divide in Latin America, with a project that will extend network coverage to an additional 2.5 million people in Bolivia, Paraguay and Honduras, while paving the way for 5G rollout across the continent.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 228,
+                  "end": 230
+                },
+                {
+                  "start": 231,
+                  "end": 238
+                }
+              ]
+            },
+            {
+              "content": "The deal represents a strategic achievement for Ericsson, considering that the rollout will provide a solid foundation for new 5G consumer and enterprise opportunities in the three key countries.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 79,
+                  "end": 86
+                },
+                {
+                  "start": 127,
+                  "end": 129
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 17
+        },
+        {
+          "documentTitle": "'Ceragon secures follow-on orders from India operators for wireless transport services'",
+          "documentVersion": 1600768859751,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5196568040&documentId=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "docId": {
+            "released": 1626421620000,
+            "accessionNumber": "PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626446061074,
+          "updatedDate": 1626446061074,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Ceragon Networks Ltd",
+              "ticker": "CRNT",
+              "isin": "il0010851660"
+            }
+          ],
+          "countryCodes": ["IL"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 2,
+          "numberOfHitStatements": 1,
+          "statements": [
+            {
+              "content": "Ceragon plans to help these operators expand their digital footprint in India, as well as prepare for the 5G rollout expected in 2022.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 106,
+                  "end": 108
+                },
+                {
+                  "start": 109,
+                  "end": 116
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 6
+        },
+        {
+          "documentTitle": "Ericsson and Verizon ink landmark multi-year $8.3 Billion 5G deal",
+          "documentVersion": 1600768779068,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-659db6f0e223a07d0182d6563944aaf061e5e235",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5194301227&documentId=PR-659db6f0e223a07d0182d6563944aaf061e5e235",
+          "docId": {
+            "released": 1626411000000,
+            "accessionNumber": "PR-659db6f0e223a07d0182d6563944aaf061e5e235"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626442604138,
+          "updatedDate": 1626442604138,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Telefon AB L.M.Ericsson",
+              "ticker": "ERIC",
+              "isin": "us2948216088"
+            }
+          ],
+          "secondaryCompanies": [
+            {
+              "name": "Verizon Communications Inc",
+              "ticker": "VZ",
+              "isin": "us92343v1044"
+            }
+          ],
+          "countryCodes": ["SE"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 2,
+          "numberOfHitStatements": 1,
+          "statements": [
+            {
+              "content": "We're looking forward to working with Verizon to leverage solutions like Cloud RAN and our Street Macro, adding depth and versatility to 5G network rollouts across the U.S.\"",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 137,
+                  "end": 139
+                },
+                {
+                  "start": 148,
+                  "end": 156
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 50
+        },
+        {
+          "documentTitle": "Ericsson and Millicom - TIGO drive digital inclusion in Latin America",
+          "documentVersion": 1600768885726,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5187377113&documentId=PR-433762f32963eb183337cea22fae76e2e9ffd179",
+          "docId": {
+            "released": 1626423540000,
+            "accessionNumber": "PR-433762f32963eb183337cea22fae76e2e9ffd179"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626424015482,
+          "updatedDate": 1626424015482,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Telefon AB L.M.Ericsson",
+              "ticker": "ERIC",
+              "isin": "us2948216088"
+            }
+          ],
+          "secondaryCompanies": [
+            {
+              "name": "Microsoft Corp",
+              "ticker": "MSFT",
+              "isin": "us5949181045"
+            },
+            {
+              "name": "Millicom International Cellular SA",
+              "ticker": "TIGO",
+              "isin": "lu0038705702"
+            }
+          ],
+          "countryCodes": ["SE"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 4,
+          "numberOfHitStatements": 2,
+          "statements": [
+            {
+              "content": "Ericsson and Millicom are partnering to close the digital divide in Latin America, with a project that will extend network coverage to an additional 2.5 million people in Bolivia, Paraguay and Honduras, while paving the way for 5G rollout across the continent.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 228,
+                  "end": 230
+                },
+                {
+                  "start": 231,
+                  "end": 238
+                }
+              ]
+            },
+            {
+              "content": "The deal represents a strategic achievement for Ericsson, considering that the rollout will provide a solid foundation for new 5G consumer and enterprise opportunities in the three key countries.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 79,
+                  "end": 86
+                },
+                {
+                  "start": 127,
+                  "end": 129
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 17
+        },
+        {
+          "documentTitle": "'Ceragon secures follow-on orders from India operators for wireless transport services'",
+          "documentVersion": 1600768859751,
+          "docLink": "https://research.alpha-sense.com/?docid=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "snippetsLink": "https://research.alpha-sense.com/?alertEventId=searchfeed-5186897500&documentId=PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75",
+          "docId": {
+            "released": 1626421620000,
+            "accessionNumber": "PR-4f0c02253c946f58c6fa2d10e02a725bcbb06c75"
+          },
+          "source": {
+            "sourceName": "Press Releases",
+            "subSource": {
+              "sourceNames": ["Miscellaneous Subjects"]
+            }
+          },
+          "createdDate": 1626421781505,
+          "updatedDate": 1626421781505,
+          "pageCount": 1,
+          "primaryCompanies": [
+            {
+              "name": "Ceragon Networks Ltd",
+              "ticker": "CRNT",
+              "isin": "il0010851660"
+            }
+          ],
+          "countryCodes": ["IL"],
+          "industry": "Communications Equipment",
+          "sector": "Information Technology",
+          "subIndustry": "Communications Equipment",
+          "hitCount": 2,
+          "numberOfHitStatements": 1,
+          "statements": [
+            {
+              "content": "Ceragon plans to help these operators expand their digital footprint in India, as well as prepare for the 5G rollout expected in 2022.",
+              "page": 1,
+              "offsets": [
+                {
+                  "start": 106,
+                  "end": 108
+                },
+                {
+                  "start": 109,
+                  "end": 116
+                }
+              ]
+            }
+          ],
+          "sentenceCount": 6
+        }
+      ]
+    }
+  ]
+}
